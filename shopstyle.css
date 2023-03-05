@@ -1,0 +1,107 @@
+*{margin: 0;
+    padding: 0;}
+    body{height: 2400px;overflow-x: hidden; flex-wrap: wrap;}
+    .section1{width: 100%; height: 230px; }
+    
+    .navtop{width: 100%; height: 100px;  display: flex; justify-content: space-between;}
+    .left{width: 300px; height: 60px; 
+     z-index: -1; margin-top: 30px; position: relative; margin-left: 50px;}
+    .middle{width: 250px; height: 40px; margin-right: 100px;
+    margin-top: 30px; }
+    .right{width: 200px; height: 40px;
+        display: flex; margin-top: 30px; margin-right: 100px; }
+    .navbottom{width: 100%; height: 100px;  display: flex;}
+    .search{display: flex;}
+    .inputsearch{border: none;color: #606770;
+        background-color: #f5f0f0;
+        border-radius: 40px; 
+    font-size: 20px; height: 40px;}
+    .inputsearch:focus {outline: none;}
+.fa-search{ position: absolute;
+    color: #606770;
+    font-size: 15px;
+    top: 13px;
+    left: 8px;}
+    .name{font-size: 25px; font-style: unset; margin-left: 10px; margin-top: 5px;}
+    .right i{color:  #606770; font-size: 20px; padding: 20px; }
+    .right :hover, i :hover{color:black;}
+    .navbottom ul{display: flex; margin-top: 50px; margin-left: 300px;}
+    .navbottom li{margin: 10px;}
+    .navbottom:hover ul :hover{color: rgb(179, 13, 179);}
+    .about{display: flex; width: 100%; height: 50px; background-color: darkgray;}
+    .h11about{color: blueviolet;font-size: 20px;margin-left: 100px;margin-top: 10px;}
+    .h12about{color: rgb(56, 55, 58);font-size: 20px;margin-left: 10px;margin-top: 10px;}
+    
+    .navbottom a{text-decoration: none; color: rgb(143, 142, 142);font-size: 20px; font-style: inherit;}
+    .shopsec{width: 100%;height: 1000px; display: flex; }
+    
+    .rightsight{width: 1000px;height: 1000px; margin-left: 100px;}
+    .topright{width: 1000px; height: 50px; display: flex;}
+    .bottomright{width: 900px; height: 950px; }
+    .st{display: flex; height: 300px; width: 900px;}
+    .nd{display: flex; height: 300px;width: 900px;}
+    .rd{display: flex;height: 300px;width: 900px;}
+    .shop1{ width: 250px; height: 300px; border:ridge white;margin-left: 20px;}
+    .shop2{width: 250px; height: 300px; border:ridge white;margin-left: 20px;}
+    .shop3{width: 250px; height: 300px; border:ridge white;margin-left: 20px;}
+    .imgproducts{width: 250px; height: 150px;}
+    .h11sec5{font-size: 15px;width: 100px;color: blueviolet; margin-top: 30px;margin-left: 80px; }
+         .h12sec5{font-size: 14px;width: 150px;color: #606770; ;margin-left: 50px;}
+         .h13sec5{font-size: 15px;width: 100px;color: blueviolet; margin-left: 85px;}
+         .shopall{font-size: 20px;}
+         .sel{ display: flex;margin-left: 600px;}
+         .latest1{margin-left: 50px;}
+         select{background-color: gray;padding: 7px;}
+         option{background-color: white;}
+         select:hover{background-color: rgb(54, 52, 52);}
+         .leftsight{width: 250px;height: 900px; margin-left: 80px;}
+         .div1left{width: 280px;height: 250px; border:ridge white;margin-top: 50px;}
+         .div2left{width: 280px;height: 500px; border:ridge white;margin-top: 50px;}
+         .h11shop{margin-top: 10px; margin-left: 10px;}
+         .h12shop{margin: 10px;color: blueviolet;}
+         .h13shop{margin-top: 100px; margin-left: 10px;}
+         .size{display: flex;margin: 10px;}
+         h5{ margin-left: 20px; font-size: 20px;margin: 7px;}
+         .div20{display: flex;margin-left: 20px;}
+         .r{margin-left: 20px; font-size: 20px; color: red;}
+         .g{margin-left: 20px; font-size: 20px; color: green;}
+         .b{margin-left: 20px; font-size: 20px; color: blue;}
+         .section4{ width: 100%; height: 500px;}
+         .categories{width: 500px; margin-left: 350px;margin-top: 50px;}
+         .cate{margin-left: 200px;}
+         .divimg{display: flex;justify-content: center;align-items: center;margin-top: 50px;}
+         .divsec4{width: 300px; height: 350px; margin-left: 30px;position: relative;}
+         .h11sec4{font-size: 15px;font-weight: bold; color: #f5f0f0;margin-top: 280px; margin-left: 10px;
+             position: absolute;margin-top: 280px; margin-left: 10px;}
+         .h12sec4{font-size: 30px;
+            color: #f5f0f0; position: absolute;margin-top: 300px; margin-left: 25px;font-weight: bold;}
+         .imgsec4{position: absolute; z-index: -1;width: 300px; height: 350px;}
+         .divsec4:hover{transform: scale(1.1);}
+         .section7{ width: 100%; height: 500px; }
+         .top{width: 100%; height: 400px;  display: flex; justify-content: space-between; }
+         .bottom{width: 100%;height: 50px; display: flex;}
+         .first{ width: 200px; height: 350px;}
+         .second{ width: 200px; height: 350px;}    
+         .third{ width: 200px; height: 350px;}
+         .fourth{ width: 250px; height: 350px;margin-right: 20px;}
+         .fifth{ width: 250px; height: 350px;}
+         .navigation{font-weight: bold; font-size: 20px; margin-left: 20px; margin-top: 35px;}
+         .sell{color: #606770;margin-top: 10px;margin-left: 20px;}
+         .mob{color: #606770;margin-top: 35px; margin-left: 20px;}
+         .dro{color: #606770;margin-top: 10px; margin-left: 20px;}
+         .po{color: #606770;margin-top: 35px; margin-left: 20px;}
+         .imgsec7{width: 250px;height: 100px; margin-top: 50px;}
+         h2{font-size: 20px; }
+         h3{font-size: 17px; color: rgb(160, 59, 255);margin-top: 10px;}
+         h4{font-size: 15px;color: #606770;}
+         .contact{display: flex; margin-left: 10px; margin-top: 20px;}
+         .fa-location-dot{color: purple;}
+         .fa-phone{color: purple;}
+         .fa-envelope{color: purple;}
+         h5{color: #606770;margin-left: 20px; font-size: 15px;}
+         .h12sec7{margin-top: 20px;color: #606770;margin-left: 10px;}
+       .inp{width: 150px; height: 40px; margin-left: 10px;}
+       .send{background-color:purple;font-size: 20px;
+         border: none;padding: 9px;}
+         .h11footer{font-size: 15px; color: #606770;margin-left: 300px;}
+         .h12footer{font-size: 15px;color: blueviolet;margin-left: 2px;}
